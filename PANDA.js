@@ -342,7 +342,7 @@ PANDA.on("message", async msg => {
   if (msg.author.bot) return;
   if (!dinfo)
     dinfo = {
-      owner: config.PANDAid,
+      owner: config.LEGEND,
       serverid: "NONE",
       channelid: "NONE",
       timespam: "NONE",
@@ -9257,14 +9257,13 @@ PANDA300.on("message", message => {
 
 /// by PANDA
 
-PANDA.login("");
-PANDA2.login("");
-PANDA3.login("");
-PANDA4.login("");
-PANDA5.login("");
-PANDA6.login("");
-PANDA7.login("");
-PANDA8.login("");
+PANDA.login("ODM0NDYxOTAyNjkxODkzMzM4.YIHiFg.IwbFtCJXzdqtY4yDJ93Cr07y7BM");
+PANDA2.login("ODM0ODk0NDI5MTg5NzAxNjky.YIHiPw.3uGFyLHI2Cgpyip30JyH2_2Jr98");
+PANDA3.login("ODM0ODk0ODg2NDAyMjYwOTkz.YIHiug.XfxeiN6ijzkpfDY5Jlju745200c");
+PANDA4.login("ODM0ODk0OTE5ODEzNDMxMzI3.YIHiyg.rN8RJMbUUKKyZzsgTmG0QPZJURA");
+PANDA5.login("ODM0ODk1MzE4NTI0MzYyODAy.YIHjNw.9hOJQSOUWRTlfKgeVEfoU8lhZO0");
+PANDA7.login("ODM0ODk1NjI2NjEyMzc1NTgy.YIHjcA.i2ENpDkt8ZFga4g88eHO2erZA24");
+PANDA8.login("ODM0ODk1Nzc1MDc5MjAyODM5.YIHjsQ.OFGWRbAyvZCAEH1uIZRMfRUKAIg");
 PANDA9.login("");
 PANDA10.login("");
 PANDA11.login("");
